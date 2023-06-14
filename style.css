@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: pl;
-  src: url(/assets/fonts/Poppins-Light.ttf);
+  src: url(./assets/fonts/Poppins-Light.ttf);
 }
 
 body {
