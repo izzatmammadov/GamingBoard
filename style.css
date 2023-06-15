@@ -372,6 +372,7 @@ body {
 .banner_image_div {
   margin: 0 auto;
   margin-bottom: 110px;
+  transform: rotate(2deg);
 }
 
 .banner_image_div img {
@@ -448,6 +449,8 @@ body {
 .game_card:hover {
   box-shadow: inset 2px 2px 20px 1px #f07dff;
   transition: all 0.4s;
+  transform: scale(0.95);
+  cursor: pointer;
 }
 
 .game_card p {
@@ -492,6 +495,125 @@ body {
 .game_cards_profile span {
   font-family: pl;
   font-size: 12px;
+}
+
+/* section 5 */
+
+.score_flex_section {
+  width: 90%;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.score_left_div {
+  width: 50%;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.score_left_div:hover {
+  transform: scale(0.95);
+  transition: all 0.6s;
+}
+
+.score_left_div span {
+  font-size: 26px;
+}
+
+.score_left_div p {
+  margin-top: 8px;
+  font-family: pl;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02cm;
+}
+
+.score_left_div hr {
+  margin: 30px auto;
+}
+
+.score_profile_left {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.score_profile_left p {
+  font-weight: 600;
+  font-family: pl;
+  font-size: 18px;
+}
+
+.score_profile_left span {
+  font-family: pl;
+  font-size: 16px;
+}
+
+.score_profile_left div {
+  flex-direction: column;
+}
+
+.score_right_div {
+  width: 50%;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.score_right_div:hover {
+  transform: scale(0.95);
+  transition: all 0.6s;
+}
+
+.score_right_div span {
+  font-size: 26px;
+}
+
+.score_right_div p {
+  margin-top: 8px;
+  font-family: pl;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02cm;
+}
+
+.score_right_div hr {
+  margin: 30px auto;
+}
+
+.score_profile_right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.score_profile_right p {
+  font-weight: 600;
+  font-family: pl;
+  font-size: 18px;
+}
+
+.score_profile_right span {
+  font-family: pl;
+  font-size: 16px;
+}
+
+.score_profile_right div {
+  flex-direction: column;
+}
+
+.pages_image_div {
+  margin: 80px auto;
+  text-align: center;
+  width: 15%;
+  cursor: pointer;
 }
 
 /* footer */
